@@ -31,8 +31,8 @@ void swap(listint_t **list, listint_t *node)
  */
 void cocktail_sort_list(listint_t **list)
 {
-	char swapped = 1;
 	listint_t *temp;
+	char swapped = 1;
 
 	if (list == NULL || *list == NULL)
 		return;
